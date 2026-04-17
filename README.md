@@ -32,25 +32,25 @@ Python
 - neuralop/              # local copy of neuraloperator (if needed)
 
 ## Libraries Needed
-# Core numerical and scientific computing
-numpy
-scipy
+Core numerical and scientific computing
+- numpy
+- scipy
 
-# Deep learning
-torch
-torchvision
+Deep learning
+- torch
+- torchvision
 
-# Fourier Neural Operator / Neural Operator library
-neuraloperator
+Fourier Neural Operator / Neural Operator library
+- neuraloperator
 
-# Image I/O and processing
-Pillow
-scikit-image
+Image I/O and processing
+- Pillow
+- scikit-image
 
-# Plotting and visualization
-matplotlib
+Plotting and visualization
+- matplotlib
 
-## Instruction
+## Instructions
 
 
 
