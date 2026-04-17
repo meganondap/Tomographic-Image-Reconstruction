@@ -25,12 +25,30 @@ MATLAB
 - CreateTrainingData.m   # (use it for data generation)
 
 Python
-train_tomo_fno.py
-reconstruct_tomo_fno.py
-visualize_tomo_fno.py
-tomo_data_processor.py
-neuralop/              # local copy of neuraloperator (if needed)
-requirements.txt
+- train_tomo_fno.py
+- reconstruct_tomo_fno.py
+- visualize_tomo_fno.py
+- tomo_data_processor.py
+- neuralop/              # local copy of neuraloperator (if needed)
+
+## Libraries Needed
+# Core numerical and scientific computing
+numpy
+scipy
+
+# Deep learning
+torch
+torchvision
+
+# Fourier Neural Operator / Neural Operator library
+neuraloperator
+
+# Image I/O and processing
+Pillow
+scikit-image
+
+# Plotting and visualization
+matplotlib
 
 ## Instruction
 
