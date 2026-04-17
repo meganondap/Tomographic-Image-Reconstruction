@@ -17,14 +17,14 @@ The typical workflow is:
 
 A typical structure looks like:
 
-MATLAB/
+MATLAB
 view_sinogram.m
 backslash.m
 iterative.m
 iterative_nesterov.m
 CreateTrainingData.m   # (use it for data generation)
 
-Python/
+Python
 train_tomo_fno.py
 reconstruct_tomo_fno.py
 visualize_tomo_fno.py
