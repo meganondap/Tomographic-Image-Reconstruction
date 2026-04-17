@@ -18,11 +18,11 @@ The typical workflow is:
 A typical structure looks like:
 
 MATLAB
-view_sinogram.m
-backslash.m
-iterative.m
-iterative_nesterov.m
-CreateTrainingData.m   # (use it for data generation)
+- view_sinogram.m
+- backslash.m
+- iterative.m
+- iterative_nesterov.m
+- CreateTrainingData.m   # (use it for data generation)
 
 Python
 train_tomo_fno.py
