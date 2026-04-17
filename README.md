@@ -67,14 +67,7 @@ This section explains how to reproduce the full pipeline:
 ### 1. Install Python Dependencies
 
 1. Open a terminal and navigate to the `Python/` folder of this repository.
-2. (Recommended) Create and activate a virtual environment:
-
-   ```bash
-   python -m venv.venv
-
-   # Windows.venv\Scripts\activate
-
-   # macOS / Linux
-   source.venv/bin/activate
-
+2. Install the required Python backages ('requirements.txt')
+3. 
+4. 
 └─ README.md
