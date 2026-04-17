@@ -25,9 +25,9 @@ MATLAB
 - CreateTrainingData.m   # (use it for data generation)
 
 Python
-- train_tomo_fno.py
-- reconstruct_tomo_fno.py
-- visualize_tomo_fno.py
+- train.py
+- reconstruct.py
+- visualize.py
 - tomo_data_processor.py
 - neuralop/              # local copy of neuraloperator (if needed)
 
