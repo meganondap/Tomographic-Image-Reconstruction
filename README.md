@@ -31,6 +31,8 @@ Python
 - tomo_data_processor.py
 - neuralop/              # local copy of neuraloperator (if needed)
 
+---
+
 ## Libraries Needed
 Core numerical and scientific computing
 - numpy
@@ -50,8 +52,29 @@ Image I/O and processing
 Plotting and visualization
 - matplotlib
 
+---
+
 ## Instructions
 
+This section explains how to reproduce the full pipeline:
 
+1. Install the required Python libraries.
+2. Generate training data in MATLAB (`CreateTrainingData.m`).
+3. Train the Fourier Neural Operator in Python (`train.py`).
+4. Reconstruct with the trained model (`reconstruct.py`).
+5. Visualize and evaluate results (`visualize.py`).
+
+### 1. Install Python Dependencies
+
+1. Open a terminal and navigate to the `Python/` folder of this repository.
+2. (Recommended) Create and activate a virtual environment:
+
+   ```bash
+   python -m venv.venv
+
+   # Windows.venv\Scripts\activate
+
+   # macOS / Linux
+   source.venv/bin/activate
 
 └─ README.md
