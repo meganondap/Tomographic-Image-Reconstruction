@@ -17,20 +17,20 @@ The typical workflow is:
 
 A typical structure looks like:
 
-  MATLAB/
-    view_sinogram.m
-    backslash.m
-    iterative.m
-    iterative_nesterov.m
-    CreateTrainingData.m   # (use it for data generation)
+MATLAB/
+view_sinogram.m
+backslash.m
+iterative.m
+iterative_nesterov.m
+CreateTrainingData.m   # (use it for data generation)
 
-  Python/
-    train_tomo_fno.py
-    reconstruct_tomo_fno.py
-    visualize_tomo_fno.py
-    tomo_data_processor.py
-    neuralop/              # local copy of neuraloperator (if needed)
-    requirements.txt
+Python/
+train_tomo_fno.py
+reconstruct_tomo_fno.py
+visualize_tomo_fno.py
+tomo_data_processor.py
+neuralop/              # local copy of neuraloperator (if needed)
+requirements.txt
 
 ## Instruction
 
