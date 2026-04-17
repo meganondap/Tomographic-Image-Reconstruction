@@ -58,15 +58,22 @@ Plotting and visualization
 
 This section explains a quick overview on how to reproduce the full pipeline:
 
-###1. Install the required Python libraries ('requirements.txt')
-###2. Generate training data in MATLAB (`CreateTrainingData.m`)
+### 1. Install the required Python libraries ('requirements.txt')
+### 2. Generate training data in MATLAB (`CreateTrainingData.m`)
 - Open MATLAB & navigate to the MATLAB folder
 - Make sure you have Airtools II
 - Open (`CreateTrainingData.m`)
 - Set N, rootFiler, maxSamples, & output folders
 - **Training data should be found in the box folder (MATLAB Code - MATs, PNGs)
-###3. Train the Fourier Neural Operator in Python (`train.py`).
-###4. Reconstruct with the trained model (`reconstruct.py`).
-###5. Visualize and evaluate results (`visualize.py`).
-
+### 3. Train the Fourier Neural Operator in Python (`train.py`).
+- Check and adjust directory paths if needed
+- Run the training script
+### 4. Reconstruct with the trained model (`reconstruct.py`).
+- Check & adjust directory paths if needed
+- Adjust the hyperparameters to match training
+- Choose N_recon_samples to see how many samples to reconstruct
+- Run the code to see reconstruction comparison plots & summary of MSE, PSNR, SSIM
+### 5. Visualize and evaluate results (`visualize.py`).
+- Adjust directories, N_VIS_Samples
+- Run the code to see loss graphs & visualize results
 └─ README.md
