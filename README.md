@@ -1,4 +1,4 @@
-# Tomography with Fourier Neural Operators (MATLAB + Python)
+# Tomographic Image Reconstruction
 
 This repository implements a full tomography pipeline that combines:
 
@@ -17,20 +17,20 @@ The typical workflow is:
 
 A typical structure looks like:
 
-├─ MATLAB/
-│  ├─ view_sinogram.m
-│  ├─ backslash.m
-│  ├─ iterative.m
-│  ├─ iterative_nesterov.m
-│  ├─ CreateTrainingData.m   # (use it for data generation)
-│
-├─ Python/
-│  ├─ train_tomo_fno.py
-│  ├─ reconstruct_tomo_fno.py
-│  ├─ visualize_tomo_fno.py
-│  ├─ tomo_data_processor.py
-│  ├─ neuralop/              # local copy of neuraloperator (if needed)
-│  └─ requirements.txt
+  MATLAB/
+    view_sinogram.m
+    backslash.m
+    iterative.m
+    iterative_nesterov.m
+    CreateTrainingData.m   # (use it for data generation)
+
+  Python/
+    train_tomo_fno.py
+    reconstruct_tomo_fno.py
+    visualize_tomo_fno.py
+    tomo_data_processor.py
+    neuralop/              # local copy of neuraloperator (if needed)
+    requirements.txt
 
 ## Instruction
 
