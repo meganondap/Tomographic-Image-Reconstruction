@@ -17,14 +17,14 @@ The typical workflow is:
 
 A typical structure looks like:
 
-MATLAB
+MATLAB Code
 - view_sinogram.m
 - backslash.m
 - iterative.m
 - iterative_nesterov.m
 - CreateTrainingData.m   # (use it for data generation)
 
-Python
+Python Code
 - train.py
 - reconstruct.py
 - visualize.py
