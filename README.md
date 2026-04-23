@@ -18,8 +18,9 @@ The typical workflow is:
 A typical structure looks like:
 
 MATLAB Code
-- view_sinogram.m
+- sinogram.m
 - backslash.m
+- noiseandregularization.m
 - iterative.m
 - iterative_nesterov.m
 - CreateTrainingData.m   # (use it for data generation)
@@ -56,7 +57,7 @@ Plotting and visualization
 
 ## Instructions
 
-This section explains a quick overview on how to reproduce the full pipeline:
+This section explains a quick overview on how to reproduce the full training pipeline:
 
 ### 1. Install the required Python libraries ('requirements.txt')
 ### 2. Generate training data in MATLAB (`CreateTrainingData.m`)
